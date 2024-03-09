@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Odkryj kulinarne doznania w sercu naszej restauracji, gdzie smaki spotykają się z elegancją. Nasze wyrafinowane menu skomponowane z najwyższej jakości składników zachwyci nawet najbardziej wymagających smakoszy.">
+    <title>CreativeCuisine Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <link rel="preload" as="image" href="./dist/img/header-photo-small.webp" type="image/webp">
+    <link rel="preload" as="image" href="./dist/img/header-photo-big.webp" type="image/webp">
+
+    <style>
+        body,
+        button {
+            font-size: 1.8rem;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="unlocked">
+
+    <nav class="nav">
+        <div class="nav__container wrapper">
+            <p class="nav__logo">Creative<span class="colorPrimary">Cuisine</span></p>
+            <div class="nav__menu">
+                <a href="#" class="nav__menu-item">O NAS</a>
+                <a href="#" class="nav__menu-item">MENU</a>
+                <a href="#" class="nav__menu-item">OPINIE</a>
+                <a href="#" class="nav__menu-item">BLOG</a>
+            </div>
+            <button class="nav__bars" aria-label="otwieranie / zamykanie menu">
+                <div class="nav__bars-line"></div>
+                <div class="nav__bars-line"></div>
+                <div class="nav__bars-line"></div>
+            </button>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="header__container">
+            <p class="header__container-text">smaczne i chrupiące</p>
+            <p class="header__container-title">Creative<span class="colorPrimary">Cuisine</span> Restaurant</p>
+            <p class="header__container-text--two">Zrelaksuj się w eleganckim otoczeniu naszej restauracji, gdzie dbamy
+                o każdy detal, aby stworzyć przyjemną atmosferę</p>
+        </div>
+        <img src="./dist/img/arrow-down-outline.svg" alt="strzałka w dół" class="header__icon" loading="lazy">
+    </header>
+
+    <main class="main">
+        <section class="history ptb">
+            <div class="section__text-box">
+                <p class="section__text-box-text">Ekskluzywne Przeżycia</p>
+                <p class="section__text-box-title">NASZA HISTORIA</p>
+                <p class="section__text-box-text--two">W CreativeCuisine łączymy pasję z precyzją, aby dostarczyć Ci
+                    potrawy pełne smaku i chrupkości, które rozbudzą Twoje kubki smakowe</p>
+            </div>
+            <div class="history__container">
+                <img src="./dist/img/history-photo-one.webp" alt="Kucharz demonstruje dania" class="history__photo"
+                    loading="lazy">
+                <img src="./dist/img/history-photo-two.webp" alt="Kucharz podpala danie na patelni"
+                    class="history__photo" loading="lazy">
+            </div>
+        </section>
+        <section class="opinion">
+            <div class="opinion__container">
+                <div class="opinion__slider">
+                    <div class="opinion__card">
+                        <div class="opinion__card-photo"></div>
+                        <p class="opinion__card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                            consectetur, adipisci velit</p>
+                        <p class="opinion__card-name">Mark Hopkins</p>
+                    </div>
+                    <div class="opinion__card">
+                        <div class="opinion__card-photo"></div>
+                        <p class="opinion__card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                            consectetur, adipisci velit</p>
+                        <p class="opinion__card-name">Mark Hopkins</p>
+                    </div>
+                    <div class="opinion__card">
+                        <div class="opinion__card-photo"></div>
+                        <p class="opinion__card-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                            consectetur, adipisci velit</p>
+                        <p class="opinion__card-name">Mark Hopkins</p>
+                    </div>
+                </div>
+                <div class="opinion__btns">
+                    <button class="opinion__btn opinion__btn--one opinion__btn--active"
+                        aria-label="Pierwsza opinia"></button>
+                    <button class="opinion__btn opinion__btn--two" aria-label="Druga opinia"></button>
+                    <button class="opinion__btn opinion__btn--three" aria-label="Trzecia opinia"></button>
+                </div>
+            </div>
+        </section>
+        <section class="menu ptb bg-two">
+            <div class="section__text-box">
+                <p class="section__text-box-text">Kulinarne Skarby</p>
+                <p class="section__text-box-title">Nasze Menu</p>
+                <p class="section__text-box-text--two">Różnorodność smaków w zbalansowanych, autentycznych, sezonowych
+                    potrawach</p>
+            </div>
+            <div class="menu__container">
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Krewetki w Sosie Curry z Kokosem</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">65 zł</p>
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Stek z Antrykotu z Sosem Truflowym</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">85 zł</p>
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Risotto z Grzybami Leśnymi i Szparagami</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">55 zł</p>
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Krewetki w Kremowym Sosie z Awokado i Limonką</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">75 zł</p>
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Filet Złocistej Dorady z Sosem z Pieczonych Pomidorów</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">70 zł</p>
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Ratatouille z Świeżych Warzyw i Świeżymi Ziołami</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">50 zł</p>
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Kacze Confit z Puree z Pasternaku i Sosie Porowym</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">80 zł</p>
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-text-box">
+                        <p class="menu__card-title">Panna Cotta z Sosem Malinowym i Karmelizowanymi Migdałami</p>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                    </div>
+                    <div class="menu__card-line"></div>
+                    <p class="menu__card-price">35 zł</p>
+                </div>
+            </div>
+        </section>
+        <section class="info ptb">
+            <div class="section__text-box" style="padding: 0 .5em 0 .5em;">
+                <p class="section__text-box-text">ŚWIEŻO ZŁAPANE</p>
+                <p class="section__text-box-title"><mark>SKŁADNIKI</mark></p>
+                <p class="section__text-box-text--two">Nasze kuchenne poszukiwania prowadzą nas do najwyższej jakości
+                    składników, które są sercem każdej potrawy, jaką serwujemy</p>
+            </div>
+        </section>
+        <section class="dishes ptb bg-two">
+            <div class="dishes__container">
+                <ul class="dishes__list">
+                    <li class="dishes__item dishes__item--active">SEROWE ROZCZYNKI</li>
+                    <li class="dishes__item">BRUSCHETTA Z POMIDORAMI I BAZYLIĄ</li>
+                    <li class="dishes__item">WSPANIAŁE WARZYWA</li>
+                    <li class="dishes__item">SMAKOWITE PRZEKĄSKI</li>
+                    <li class="dishes__item">NAJLEPSZE PRZEPISY</li>
+                    <li class="dishes__item">POSIŁEK DLA CAŁEJ RODZINY</li>
+                </ul>
+                <div class="wrapper wrapper-dishes">
+                    <div class="dishes__slider">
+                        <p class="dishes__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet qui
+                            sed quam veniam voluptatibus vitae amet? Ab quisquam ex quidem consectetur, sapiente
+                            dolorum, deserunt provident, possimus consequuntur repudiandae voluptatem dolores. Aliquid,
+                            nisi facere? Non?</p>
+                        <p class="dishes__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut distinctio
+                            repudiandae accusamus eaque amet dolorem blanditiis. Tempora eos quo quos nobis. Aliquam
+                            eaque laudantium dignissimos modi repellendus praesentium voluptates tenetur, ipsam ducimus
+                            hic distinctio eum consectetur quod qui.</p>
+                        <p class="dishes__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nemo
+                            animi dignissimos sint vitae unde reprehenderit illum illo, quibusdam suscipit optio
+                            voluptatibus quo quam pariatur officiis facilis velit? Obcaecati, tenetur. Harum vel quas
+                            illo enim exercitationem hic. Rem, distinctio quo.</p>
+                        <p class="dishes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, error
+                            expedita doloremque veniam illo molestiae praesentium quo laboriosam quod maxime quas modi
+                            inventore officiis est? Minus similique corrupti neque vitae, saepe dolor!</p>
+                        <p class="dishes__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fuga
+                            id repellendus cum ipsa ipsam quia eius aliquam quasi, suscipit nobis, velit placeat eveniet
+                            corporis sed magnam.</p>
+                        <p class="dishes__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo amet magni
+                            consequatur aut ipsam maiores voluptatibus quia voluptas eum sit delectus exercitationem,
+                            corrupti voluptatem minus ipsa! Sed impedit illo officiis. Ut incidunt ex veritatis ab quasi
+                            quis minima modi dolor placeat nihil.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog ptb">
+            <div class="section__text-box">
+                <p class="section__text-box-text">Kulinarne Skarby</p>
+                <p class="section__text-box-title">SPECJALNE PRZEPISY</p>
+                <p class="section__text-box-text--two">Różnorodność smaków w zbalansowanych, autentycznych, sezonowych
+                    potrawach</p>
+            </div>
+            <div class="blog__container">
+                <div class="blog__card">
+                    <img loading="lazy" src="./dist/img/blog-photo-small.webp"
+                        alt="Zdjęcie przedstawiające nowe metody smażenia" class="blog__card-photo">
+                    <p class="blog__card-date">STYCZEŃ 11, 2023 / ZDROWE</p>
+                    <P class="blog__card-title">WŁOSKA KULTOWA PASTA Z MIĘSEM I SEREM</P>
+                    <p class="blog__card-text">Lorem ipsum dolor sit amet consectetur. Phasellus in quam risus vitae
+                        arcu eget.</p>
+                    <div class="blog__card-line"></div>
+
+                </div>
+                <div class="blog__card">
+                    <img loading="lazy" src="./dist/img/blog-photo-small.webp"
+                        alt="Zdjęcie przedstawiające nowe metody smażenia" class="blog__card-photo">
+                    <p class="blog__card-date">STYCZEŃ 11, 2023 / ZDROWE</p>
+                    <P class="blog__card-title">WŁOSKA KULTOWA PASTA Z MIĘSEM I SEREM</P>
+                    <p class="blog__card-text">Lorem ipsum dolor sit amet consectetur. Phasellus in quam risus vitae
+                        arcu eget.</p>
+                    <div class="blog__card-line"></div>
+                </div>
+                <div class="blog__card">
+                    <img loading="lazy" src="./dist/img/blog-photo-small.webp"
+                        alt="Zdjęcie przedstawiające nowe metody smażenia" class="blog__card-photo">
+                    <p class="blog__card-date">STYCZEŃ 11, 2023 / ZDROWE</p>
+                    <P class="blog__card-title">WŁOSKA KULTOWA PASTA Z MIĘSEM I SEREM</P>
+                    <p class="blog__card-text">Lorem ipsum dolor sit amet consectetur. Phasellus in quam risus vitae
+                        arcu eget.</p>
+                    <div class="blog__card-line"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-two ptb">
+        <div class="footer__container">
+            <div class="footer__card">
+                <p class="footer__card-title">Instagram</p>
+                <p class="footer__card-text">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="footer__card">
+                <p class="footer__card-title">CreativeCuisine</p>
+                <p class="footer__card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    blanditiis est dignissimos repudiandae quaerat quia!</p>
+            </div>
+            <div class="footer__card">
+                <p class="footer__card-title">Facebook</p>
+                <p class="footer__card-text">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <p class="footer__text">&copy; <span class="footer__year"></span> <span
+                    class="colorPrimary">CreativeCuisine</span></p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/script.min.js"></script>
+</body>
+
+</html>

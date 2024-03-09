@@ -1,0 +1,62 @@
+@use 'colors' as *;
+
+.colorPrimary {
+	color: $primary;
+}
+
+.ptb {
+	padding: 4em 0;
+}
+
+.bg-two {
+	color: $text-light;
+	background-color: $bg-dark;
+}
+
+.section__text-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 0.5em 2em 0.5em;
+	text-align: center;
+}
+
+.section__text-box-title {
+	margin: 1em 0;
+	font-size: 2.4rem;
+
+	mark {
+		color: $text-light;
+		background-color: $black;
+	}
+}
+
+.section__text-box-text--two {
+	font-size: 1.6rem;
+	max-width: 380px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.section__text-box {
+		padding: 0 0.5em 4em 0.5em;
+	}
+
+	.section__text-box-text {
+		font-size: 2rem;
+	}
+
+	.section__text-box-title {
+		font-size: 3rem;
+	}
+
+	.section__text-box-text--two {
+		font-size: 1.8rem;
+	}
+}
